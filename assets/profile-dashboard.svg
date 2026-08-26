@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 350" role="img" aria-labelledby="title desc">
+  <title id="title">ValdeCoder profile snapshot</title>
+  <desc id="desc">Current snapshot: two public repositories, six contributions, three commits, and AI-assisted building.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0d16"/><stop offset="1" stop-color="#151326"/></linearGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <filter id="soft" x="-20%" y="-30%" width="140%" height="160%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1000" height="350" rx="18" fill="url(#bg)" stroke="#34314f" stroke-width="2"/>
+  <path d="M26 68H974" stroke="#34314f"/>
+  <text x="30" y="42" font-family="monospace" font-size="14" fill="#22d3ee" letter-spacing="2">PROFILE_SIGNAL // CURRENT_SNAPSHOT</text>
+  <text x="805" y="42" font-family="monospace" font-size="12" fill="#8b949e">VALDECODER.SYS</text>
+  <g transform="translate(28 92)">
+    <rect width="218" height="108" rx="12" fill="#111426" stroke="#423b68"/>
+    <text x="20" y="34" font-family="monospace" font-size="13" fill="#a78bfa">PUBLIC REPOS</text>
+    <text x="20" y="83" font-family="monospace" font-size="48" font-weight="700" fill="#f8fafc" filter="url(#soft)">02</text>
+  </g>
+  <g transform="translate(264 92)">
+    <rect width="218" height="108" rx="12" fill="#111426" stroke="#254d5b"/>
+    <text x="20" y="34" font-family="monospace" font-size="13" fill="#22d3ee">CONTRIBUTIONS</text>
+    <text x="20" y="83" font-family="monospace" font-size="48" font-weight="700" fill="#f8fafc" filter="url(#soft)">06</text>
+  </g>
+  <g transform="translate(500 92)">
+    <rect width="218" height="108" rx="12" fill="#111426" stroke="#5c3558"/>
+    <text x="20" y="34" font-family="monospace" font-size="13" fill="#f472b6">COMMITS / REPOS</text>
+    <text x="20" y="83" font-family="monospace" font-size="48" font-weight="700" fill="#f8fafc" filter="url(#soft)">03</text>
+  </g>
+  <g transform="translate(736 92)">
+    <rect width="236" height="108" rx="12" fill="#111426" stroke="#344b55"/>
+    <text x="20" y="34" font-family="monospace" font-size="13" fill="#94a3b8">BUILD MODE</text>
+    <text x="20" y="70" font-family="monospace" font-size="20" font-weight="700" fill="#f8fafc">AI-ASSISTED</text>
+    <circle cx="207" cy="78" r="7" fill="#22d3ee" filter="url(#soft)"/>
+  </g>
+  <text x="30" y="244" font-family="monospace" font-size="13" fill="#8b949e">ACTIVE STACK</text>
+  <g font-family="monospace" font-size="14" font-weight="700">
+    <g transform="translate(30 266)"><rect width="112" height="38" rx="19" fill="#1b1630" stroke="#6d55b8"/><text x="22" y="25" fill="#c4b5fd">PYTHON</text></g>
+    <g transform="translate(154 266)"><rect width="112" height="38" rx="19" fill="#102a32" stroke="#27869a"/><text x="27" y="25" fill="#67e8f9">TYPESCRIPT</text></g>
+    <g transform="translate(278 266)"><rect width="94" height="38" rx="19" fill="#2b1728" stroke="#a34876"/><text x="25" y="25" fill="#f9a8d4">REACT</text></g>
+    <g transform="translate(384 266)"><rect width="94" height="38" rx="19" fill="#172736" stroke="#397aa6"/><text x="26" y="25" fill="#93c5fd">DOCKER</text></g>
+    <g transform="translate(490 266)"><rect width="78" height="38" rx="19" fill="#17251e" stroke="#4d9b67"/><text x="23" y="25" fill="#86efac">LINUX</text></g>
+  </g>
+  <text x="744" y="289" font-family="monospace" font-size="12" fill="#8b949e">snapshot / 2026</text>
+</svg>

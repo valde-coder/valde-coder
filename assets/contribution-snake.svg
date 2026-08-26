@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" role="img" aria-labelledby="title desc">
+  <title id="title">ValdeCoder contribution signal</title>
+  <desc id="desc">A local neon snake illustration moving through a contribution grid.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080d12"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <linearGradient id="snake" x1="0" x2="1"><stop stop-color="#a78bfa"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#86efac"/></linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1000" height="190" rx="18" fill="url(#bg)" stroke="#294153" stroke-width="2"/>
+  <text x="28" y="34" font-family="monospace" font-size="12" fill="#67e8f9" letter-spacing="2">CONTRIBUTION_SIGNAL // LOCAL_ASSET</text>
+  <g transform="translate(30 55)" opacity=".9">
+    <g fill="#172b2f"> <rect x="0" y="0" width="16" height="16" rx="3"/><rect x="22" y="0" width="16" height="16" rx="3"/><rect x="44" y="0" width="16" height="16" rx="3"/><rect x="66" y="0" width="16" height="16" rx="3"/><rect x="88" y="0" width="16" height="16" rx="3"/><rect x="110" y="0" width="16" height="16" rx="3"/><rect x="132" y="0" width="16" height="16" rx="3"/><rect x="154" y="0" width="16" height="16" rx="3"/><rect x="176" y="0" width="16" height="16" rx="3"/><rect x="198" y="0" width="16" height="16" rx="3"/><rect x="220" y="0" width="16" height="16" rx="3"/><rect x="242" y="0" width="16" height="16" rx="3"/><rect x="264" y="0" width="16" height="16" rx="3"/><rect x="286" y="0" width="16" height="16" rx="3"/><rect x="308" y="0" width="16" height="16" rx="3"/><rect x="330" y="0" width="16" height="16" rx="3"/><rect x="352" y="0" width="16" height="16" rx="3"/><rect x="374" y="0" width="16" height="16" rx="3"/><rect x="396" y="0" width="16" height="16" rx="3"/><rect x="418" y="0" width="16" height="16" rx="3"/></g>
+    <g fill="#1c4650"><rect x="0" y="22" width="16" height="16" rx="3"/><rect x="44" y="22" width="16" height="16" rx="3"/><rect x="88" y="22" width="16" height="16" rx="3"/><rect x="132" y="22" width="16" height="16" rx="3"/><rect x="176" y="22" width="16" height="16" rx="3"/><rect x="220" y="22" width="16" height="16" rx="3"/><rect x="264" y="22" width="16" height="16" rx="3"/><rect x="308" y="22" width="16" height="16" rx="3"/><rect x="352" y="22" width="16" height="16" rx="3"/><rect x="396" y="22" width="16" height="16" rx="3"/></g>
+    <g fill="#2c6b62"><rect x="22" y="44" width="16" height="16" rx="3"/><rect x="66" y="44" width="16" height="16" rx="3"/><rect x="110" y="44" width="16" height="16" rx="3"/><rect x="154" y="44" width="16" height="16" rx="3"/><rect x="198" y="44" width="16" height="16" rx="3"/><rect x="242" y="44" width="16" height="16" rx="3"/><rect x="286" y="44" width="16" height="16" rx="3"/><rect x="330" y="44" width="16" height="16" rx="3"/><rect x="374" y="44" width="16" height="16" rx="3"/><rect x="418" y="44" width="16" height="16" rx="3"/></g>
+    <g fill="#3c8c6b"><rect x="0" y="66" width="16" height="16" rx="3"/><rect x="44" y="66" width="16" height="16" rx="3"/><rect x="88" y="66" width="16" height="16" rx="3"/><rect x="132" y="66" width="16" height="16" rx="3"/><rect x="176" y="66" width="16" height="16" rx="3"/><rect x="220" y="66" width="16" height="16" rx="3"/><rect x="264" y="66" width="16" height="16" rx="3"/><rect x="308" y="66" width="16" height="16" rx="3"/><rect x="352" y="66" width="16" height="16" rx="3"/><rect x="396" y="66" width="16" height="16" rx="3"/></g>
+  </g>
+  <path d="M500 122 C540 72 590 72 624 120 S700 168 738 110 S815 54 864 102 S918 126 950 82" fill="none" stroke="url(#snake)" stroke-width="12" stroke-linecap="round" filter="url(#glow)"/>
+  <circle cx="946" cy="82" r="15" fill="#0b1118" stroke="#86efac" stroke-width="5" filter="url(#glow)"/>
+  <circle cx="951" cy="78" r="2.5" fill="#f8fafc"/><circle cx="941" cy="78" r="2.5" fill="#f8fafc"/>
+  <text x="500" y="164" font-family="monospace" font-size="12" fill="#8b949e">KEEP BUILDING  ·  KEEP SHIPPING  ·  KEEP CURIOUS</text>
+</svg>

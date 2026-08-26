@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" role="img" aria-label="ValdeCoder footer">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#8b5cf6"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/></linearGradient></defs>
+  <rect width="1200" height="110" rx="16" fill="#0b0d16" stroke="#2a2940"/>
+  <path d="M25 72 C210 22 350 92 540 52 S880 20 1175 68" fill="none" stroke="url(#g)" stroke-width="2"/>
+  <text x="600" y="43" text-anchor="middle" font-family="monospace" font-size="14" fill="#c4b5fd" letter-spacing="3">END OF TRANSMISSION // SEE YOU IN THE NEXT COMMIT</text>
+</svg>

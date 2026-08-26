@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+  <title id="title">ValdeCoder — AI-assisted builder</title>
+  <desc id="desc">A dark neon terminal-inspired banner for ValdeCoder.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090b16"/>
+      <stop offset="0.55" stop-color="#15152b"/>
+      <stop offset="1" stop-color="#0b1825"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#f472b6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#94a3b8" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="220" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="218" rx="17" fill="url(#grid)" stroke="#334155" stroke-width="2"/>
+  <circle cx="1030" cy="72" r="118" fill="#8b5cf6" opacity=".11"/>
+  <circle cx="1030" cy="72" r="80" fill="none" stroke="#22d3ee" stroke-opacity=".35"/>
+  <circle cx="1030" cy="72" r="48" fill="none" stroke="#f472b6" stroke-opacity=".4"/>
+  <path d="M0 184 C180 144 300 220 480 180 S800 148 1200 190" fill="none" stroke="url(#line)" stroke-width="2"/>
+  <g font-family="monospace" letter-spacing="3">
+    <text x="66" y="62" font-size="14" fill="#22d3ee">// PERSONAL BUILD SYSTEM / ONLINE</text>
+    <text x="62" y="126" font-size="64" font-weight="700" letter-spacing="7" fill="#f8fafc" filter="url(#glow)">VALDECODER</text>
+    <text x="68" y="164" font-size="16" fill="#c4b5fd">BUILD WITH CURIOSITY  ·  SHIP WITH INTENT  ·  LEARN IN PUBLIC</text>
+  </g>
+  <g transform="translate(1085 156)" fill="none" stroke="#22d3ee" stroke-width="2">
+    <rect width="58" height="30" rx="6"/>
+    <path d="M14 10l6 5-6 5M27 20h17"/>
+  </g>
+</svg>
